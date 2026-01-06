@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/save_content" />
+
+    <item
+        android:id="@+id/navigation_saved"
+        android:icon="@drawable/ic_bookmark"
+        android:title="@string/saved" />
+
+    <item
+        android:id="@+id/navigation_folders"
+        android:icon="@drawable/ic_folder"
+        android:title="@string/folders" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings" />
+</menu>
