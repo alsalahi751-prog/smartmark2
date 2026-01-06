@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/theme_toggle_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch Theme"/>
+
+    <Button
+        android:id="@+id/backup_restore_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Backup & Restore"/>
+
+    <Button
+        android:id="@+id/check_update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check for Updates"/>
+
+    <Button
+        android:id="@+id/contact_support_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Support"/>
+
+    <Button
+        android:id="@+id/rate_app_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate this app"/>
+
+    <Button
+        android:id="@+id/btn_toggle_ar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_to_arabic" />
+
+    <Button
+        android:id="@+id/btn_toggle_en"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_to_english" />
+
+</LinearLayout>
