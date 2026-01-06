@@ -1,0 +1,23 @@
+# Android
+*.iml
+*.iml~
+.gradle
+/build/
+captures/
+.externalNativeBuild
+.cxx/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+out/
+
+# Keystore
+**/debug.keystore
+**/debug.keystore.*
+**/*.keystore
+**/*.keystore.*
+
+# Local configuration file (sdk path, etc)
+local.properties
