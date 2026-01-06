@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">سمارت مارك</string>
+    <string name="save_content">احفظ المحتوى</string>
+    <string name="paste_url">الصق الرابط هنا</string>
+    <string name="download">تنزيل</string>
+    <string name="switch_to_arabic">التبديل إلى العربية</string>
+    <string name="switch_to_english">التبديل إلى الإنجليزية</string>
+    <string name="saved">المحفوظات</string>
+    <string name="folders">المجلدات</string>
+    <string name="settings">الإعدادات</string>
+</resources>
